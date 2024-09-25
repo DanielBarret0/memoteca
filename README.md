@@ -13,7 +13,7 @@ Memoteca é um aplicativo organizador de pensamentos e frases que permite cadast
 
 ![Gif](https://github.com/DanielBarret0/JavaScript-criando-requisisoes/blob/main/prints/gif-branches.gif)
 
-## Como rodar o projeto em seu PC
+## 🛠️  Como rodar o projeto em seu PC
 
 Para executar a API fake, você vai precisar do NodeJS;
 
