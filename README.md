@@ -28,7 +28,7 @@ npm install -g json-server
 ```
 Depois, o comando que você mencionou deve funcionar perfeitamente:
 ```
-json-server --watch db.json
+npm start
 ```
 
 Acesse o backend localmente em seu navegador:
