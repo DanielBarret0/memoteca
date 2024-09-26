@@ -19,7 +19,7 @@ Memoteca é um aplicativo organizador de pensamentos e frases que permite cadast
 
 
 ## ⭐ Layout do projeto
-![Layout](https://github.com/DanielBarret0/memoteca/blob/unidade-1/prints/unidade-2.png)
+![Layout](https://github.com/DanielBarret0/memoteca/blob/unidade-2/prints/unidade-2.png)
 
 # 🙋‍♂️ Autor
 
