@@ -11,9 +11,15 @@ Memoteca é um aplicativo organizador de pensamentos e frases que permite cadast
 
 # Ao fazer essa unidade aprendi sobre: 
 
+- Enviar dados para o servidor usando uma requisição HTTP POST;
+- Configurar o método da requisição como POST, definir o cabeçalho Content-Type como application/json e enviar os dados no corpo da requisição em formato JSON;
+- Atualizar a interface dinamicamente para exibir dados (os pensamentos no mural);
+- Manipular eventos de formulário, adicionando event listeners para tratar a submissão do formulário e o cancelamento da operação;
+- Implementar a função para limpar os campos do formulário após a submissão ou cancelamento, preparando-o para novas entradas.
+
 
 ## ⭐ Layout do projeto
-![Layout](https://github.com/DanielBarret0/memoteca/blob/unidade-1/prints/unidade-1.png)
+![Layout](https://github.com/DanielBarret0/memoteca/blob/unidade-1/prints/unidade-2.png)
 
 # 🙋‍♂️ Autor
 
