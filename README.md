@@ -11,10 +11,13 @@ Memoteca é um aplicativo organizador de pensamentos e frases que permite cadast
 
 # Ao fazer essa unidade aprendi sobre: 
 
-- Comunicar-se com o servidor: utilizamos o projeto base e o projeto final para explorar como obter dados de um servidor;
-- Configurar um servidor JSON com JSON-Server: Utilizamos o JSON-Server para simular um back-end, criando um arquivo “db.json” e configurando o “package.json” para iniciar a API;
-- Fazer uma requisição com Fetch: Criamos um arquivo “api.js” e implementamos o método buscarPensamentos() para fazer uma requisição à API e obter os dados dos pensamentos;
-- Renderizar dados na interface: implementamos o arquivo “ui.js” com o método renderizarPensamentos() para atualizar dinamicamente a interface com os pensamentos obtidos da API.
+- Utilizar o método HTTP PUT para alterar dados no servidor;
+- Buscar um pensamento específico por ID utilizando uma requisição HTTP GET;
+- Preencher o formulário de edição com dados existentes para facilitar a atualização;
+- Adicionar dinamicamente botões de edição à interface para cada item da lista de pensamentos;
+- Integrar as funções de busca e edição de pensamentos no código principal da aplicação;
+- Manipular evento de submissão do formulário para atualizar dados na API;
+- Tratar erros nas requisições HTTP para melhorar a experiência de uso da aplicação.
 
 
 ## ⭐ Layout do projeto
