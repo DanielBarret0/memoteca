@@ -11,10 +11,14 @@ Memoteca é um aplicativo organizador de pensamentos e frases que permite cadast
 
 # Ao fazer essa unidade aprendi sobre: 
 
-- Comunicar-se com o servidor: utilizamos o projeto base e o projeto final para explorar como obter dados de um servidor;
-- Configurar um servidor JSON com JSON-Server: Utilizamos o JSON-Server para simular um back-end, criando um arquivo “db.json” e configurando o “package.json” para iniciar a API;
-- Fazer uma requisição com Fetch: Criamos um arquivo “api.js” e implementamos o método buscarPensamentos() para fazer uma requisição à API e obter os dados dos pensamentos;
-- Renderizar dados na interface: implementamos o arquivo “ui.js” com o método renderizarPensamentos() para atualizar dinamicamente a interface com os pensamentos obtidos da API.
+- Utilizar o método HTTP DELETE para remover dados do servidor;
+- Buscar um pensamento específico por ID para exclusão utilizando uma requisição HTTP;
+- Implementar uma função de exclusão no arquivo “api.js” para enviar a requisição de remoção à API;
+- Adicionar dinamicamente botões de exclusão à interface para cada item da lista de pensamentos;
+- Integrar a função de exclusão de pensamentos no código principal da aplicação;
+- Manipular eventos de clique no botão de exclusão e atualizar a interface após a remoção de dados na API;
+- Compreender o conceito de CRUD (Create, Read, Update, Delete) e aplicá-lo em um contexto prático;
+- Melhorar o código para torná-lo mais eficiente e fácil de manter, utilizando constantes para evitar repetição de URL.
 
 
 ## ⭐ Layout do projeto
