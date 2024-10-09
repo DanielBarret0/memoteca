@@ -74,7 +74,7 @@ Você pode [acessar o figma do projeto aqui](https://www.figma.com/community/fil
 
 
 ## ⭐ Layout do projeto
-![Layout]()
+![Layout](https://github.com/DanielBarret0/memoteca/blob/main/prints/memoteca.gif)
 
 
 # 🙋‍♂️ Autor
