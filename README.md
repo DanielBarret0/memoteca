@@ -26,6 +26,10 @@ Certifique-se de que o JSON Server esteja instalado globalmente ou localmente no
 ```
 npm install -g json-server
 ```
+Segundo passo é entrar na pasta backend atraves do terminal:
+```
+cd backend
+```
 Depois, o comando que você mencionou deve funcionar perfeitamente:
 ```
 npm start
@@ -68,11 +72,11 @@ http://localhost:5500
 
 ## 📁 Link do Figma
 
-Você pode [acessar o figma do projeto aqui](https://www.figma.com/design/Sz1gmmemxqcB3amInL4Ndp/Rebrand-Memoteca-%7C-Curso-CRUD?node-id=148-26&t=FpdmfbiM1i1s6REQ-0).
+Você pode [acessar o figma do projeto aqui](https://www.figma.com/community/file/1418667851533626562/javascript-implementando-crud-com-requisicoes-http-memoteca).
 
 
 ## ⭐ Layout do projeto
-![Layout](https://github.com/DanielBarret0/JavaScript-criando-requisisoes/blob/main/prints/gif-alura-play.gif#vitrinedev)
+![Layout]()
 
 
 # 🙋‍♂️ Autor
