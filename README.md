@@ -11,14 +11,13 @@ Memoteca é um aplicativo organizador de pensamentos e frases que permite cadast
 
 # Ao fazer essa unidade aprendi sobre: 
 
-- Comunicar-se com o servidor: utilizamos o projeto base e o projeto final para explorar como obter dados de um servidor;
-- Configurar um servidor JSON com JSON-Server: Utilizamos o JSON-Server para simular um back-end, criando um arquivo “db.json” e configurando o “package.json” para iniciar a API;
-- Fazer uma requisição com Fetch: Criamos um arquivo “api.js” e implementamos o método buscarPensamentos() para fazer uma requisição à API e obter os dados dos pensamentos;
-- Renderizar dados na interface: implementamos o arquivo “ui.js” com o método renderizarPensamentos() para atualizar dinamicamente a interface com os pensamentos obtidos da API.
-
+- Adicionar a CDN do Axios ao seu projeto e incluir no HTML para utilizar a biblioteca;
+- Utilizar o Axios para fazer requisições GET, POST, PUT e DELETE de forma mais concisa;
+- Comparar Axios e fetch, entendendo as vantagens e desvantagens de cada abordagem;
+- Inspecionar requisições utilizando o DevTools do navegador para visualizar detalhes importantes.
 
 ## ⭐ Layout do projeto
-![Layout](https://github.com/DanielBarret0/memoteca/blob/unidade-1/prints/unidade-1.png)
+![Layout](https://github.com/DanielBarret0/memoteca/blob/unidade-5/prints/unidade-5.png)
 
 # 🙋‍♂️ Autor
 
