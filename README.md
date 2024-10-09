@@ -19,8 +19,6 @@ Para executar a API fake, você vai precisar do NodeJS;
 
 No terminal do seu editor de código siga essas etapas:
 
-![Gif](https://github.com/DanielBarret0/JavaScript-criando-requisisoes/blob/main/prints/terminal.gif)
-
 Certifique-se de que o JSON Server esteja instalado globalmente ou localmente no seu projeto. Para instalá-lo globalmente, você pode usar o seguinte comando:
 
 ```
