@@ -1,86 +1,49 @@
-# Memoteca
+# 💭 Memoteca
 
-Memoteca é um aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar e deletar pensamentos, incluindo informações como conteúdo e autoria.
+Aplicativo organizador de pensamentos e frases. Permite cadastrar, listar, editar e excluir pensamentos, com conteúdo e autoria, consumindo uma API REST.
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **Memoteca**
-| :label: Tecnologias | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-| :rocket: URL         | [Link do projeto]()
-| :fire: Desafio     | [link do Curso](https://cursos.alura.com.br/course/javascript-implementando-crud-requisicoes-http)
+<p align="center">
+  <img src="prints/memoteca.gif" alt="Demonstração da Memoteca" width="720" />
+</p>
 
-## Confira toda trajetória do curso:
+<p align="center">
+  <a href="https://memoteca-pearl.vercel.app"><b>🚀 Ver o projeto online</b></a> ·
+  <a href="https://www.figma.com/community/file/1418667851533626562/javascript-implementando-crud-com-requisicoes-http-memoteca">🎨 Figma</a> ·
+  <a href="https://cursos.alura.com.br/course/javascript-implementando-crud-requisicoes-http">📚 Curso</a>
+</p>
 
-![Gif](https://github.com/DanielBarret0/JavaScript-criando-requisisoes/blob/main/prints/gif-branches.gif)
+## Funcionalidades
 
-## 🛠️  Como rodar o projeto em seu PC
+- **Cadastrar** pensamentos com conteúdo e autoria
+- **Listar** os pensamentos salvos, com aviso de lista vazia
+- **Editar** um pensamento existente
+- **Excluir** pensamentos da lista
 
-Para executar a API fake, você vai precisar do NodeJS;
+## Stack
 
-No terminal do seu editor de código siga essas etapas:
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Certifique-se de que o JSON Server esteja instalado globalmente ou localmente no seu projeto. Para instalá-lo globalmente, você pode usar o seguinte comando:
+- **JavaScript** organizado em módulos: `api.js` (requisições), `ui.js` (interface) e `main.js` (eventos)
+- **Fetch API e Axios** para as requisições HTTP (GET, POST, PUT e DELETE)
+- **JSON Server** simulando o back-end REST
 
-```
+## Como rodar
+
+Você vai precisar do Node.js.
+
+```bash
+git clone https://github.com/DanielBarret0/memoteca.git
+cd memoteca/backend
 npm install -g json-server
-```
-Segundo passo é entrar na pasta backend atraves do terminal:
-```
-cd backend
-```
-Depois, o comando que você mencionou deve funcionar perfeitamente:
-```
 npm start
 ```
 
-Acesse o backend localmente em seu navegador:
+A API sobe em http://localhost:3000.
 
-http://localhost:3000
+Para o front-end, abra o projeto no VS Code e use a extensão **Live Server** no `index.html`. O site abre em http://localhost:5500.
 
-Para executar o frontend, abra o projeto no Visual Studio Code. Com a extensão Live Server instalada, clique com o botão direito no arquivo index.html e selecione "Open with Live Server" no menu de contexto.
+---
 
-Acesse o frontend localmente em seu navegador:
-
-http://localhost:5500
-
-## 🔨 Funcionalidades do projeto
-
-`Cadastro de pensamentos`: Permite adicionar novos pensamentos à lista, inserindo informações como conteúdo e autoria.
-
-`Listagem de pensamentos`: Exibe os pensamentos cadastrados, permitindo visualizar o texto e a autoria.
-
-`Edição de pensamentos`: Permite editar pensamentos existentes, atualizando as informações conforme necessário.
-
-`Exclusão de pensamentos`: Permite remover pensamentos da lista.
-
-## ✔️ Técnicas e tecnologias utilizadas
-
-`JavaScript`: Linguagem de programação utilizada para desenvolver a lógica do aplicativo.
-
-`Fetch API`: Utilizada para realizar requisições HTTP para comunicação com o servidor.
-
-`Axios`: Biblioteca usada para facilitar e simplificar as requisições HTTP.
-
-`Node.js`: Plataforma utilizada para executar o ambiente de desenvolvimento.
-
-`JSON Server`: Utilizado para simular um backend e facilitar o desenvolvimento e teste das operações CRUD.
-
-`CSS`: Utilizado para estilização da interface do aplicativo.
-
-
-## 📁 Link do Figma
-
-Você pode [acessar o figma do projeto aqui](https://www.figma.com/community/file/1418667851533626562/javascript-implementando-crud-com-requisicoes-http-memoteca).
-
-
-## ⭐ Layout do projeto
-![Layout](https://github.com/DanielBarret0/memoteca/blob/main/prints/memoteca.gif)
-
-
-# 🙋‍♂️ Autor
-
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/DanielBarret0/codeChella/blob/main/LICENSE.md)
-
-José Daniel Aragão Barreto
-
-Acesse o meu [LinkedIn](https://www.linkedin.com/in/daniel-barreto-1b763216a/)
+Feito por [Daniel Barreto](https://www.linkedin.com/in/daniel-barreto-developer) · [Portfólio](https://portifoliodaniel.vercel.app/)
